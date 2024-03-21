@@ -1,11 +1,15 @@
 body {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: Arial, sans-serif;
 }
 
 .todo-container {
+	width: 300px;
 	text-align: center;
+	border: 1px solid black;
 }
 
 #todo-list {
@@ -14,4 +18,14 @@ body {
 
 #todo-list li {
 	text-align: left;
+	padding-left: 20px;
+	margin-top: 10px;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#todo-input {
+	margin-right: 5px;
 }
