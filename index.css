@@ -1,26 +1,17 @@
 body {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	font-family: Arial, sans-serif;
+	justify-content: center;
 }
 
 .todo-container {
-	width: 300px;
 	text-align: center;
 }
 
 #todo-list {
 	list-style: none;
-	padding: 0;
 }
 
 #todo-list li {
 	text-align: left;
-	margin-top: 10px;
-}
-
-#todo-input {
-	margin-right: 5px;
 }
